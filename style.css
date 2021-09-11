@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+}
+.container {
+  padding: 10px;
+}
+ul {
+  list-style: none;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+}
+.navbar {
+  /* margin-top: 2%; */
+}
+.first-page {
+  /* global 94%+ browsers support */
+  background: linear-gradient(70deg, #e9e9e9 47%, #82f4d3 47%);
+}
+.first-page-image {
+  height: 100vh;
+  background-image: url('images/Img_0.png');
+  background-repeat: no-repeat;
+  background-size: 40% auto;
+  background-position: center;
+}
+.heading {
+  margin-top: 50px;
+}
+.shop-by-brand {
+  margin-left: 50%;
+  border: 10px solid #81f3d3;
+  background: #81f3d3;
+  text-align: center;
+}
+.social-icons-area {
+  margin-top: 10% !important;
+}
+
+.social-icons {
+  text-align: right;
+}
+.social-button:hover {
+  color: black;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+.rotate-text {
+  /* transform: rotate(-90deg); */
+}
+.second-page {
+  height: 100vh auto;
+}
+.third-page {
+  height: 100vh auto;
+}
+.view-more {
+  width: 100%;
+  /* margin-left: 70%; */
+  border: 10px solid #81f3d3;
+  background: #81f3d3;
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .shoeimage1 {
+    width: 100%;
+  }
+  .sign-up-text {
+    text-align: center !important;
+  }
+}
+.though {
+  margin-top: 10%;
+  text-align: center;
+}
+.footer-text {
+  text-align: center;
+  align-content: center;
+}
+.sign-up-text {
+  text-align: start;
+}
