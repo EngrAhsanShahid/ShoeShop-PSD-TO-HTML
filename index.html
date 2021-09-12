@@ -31,10 +31,18 @@
     <div class="container-fluid">
         <div class="first-page">
             <div class="container">
-                <nav class="navbar  navbar-light">
+                <nav class="navbar  navbar-dark">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        <a class="navbar-brand" href="#">
+                            <div class="col-lg-3 col-sm-12" style="display: flex;">
+                                <img style="width: 400%; height: 15%;" src="images/VectorSmartObject_0.png" alt="">
+                                <strong>
+                                    <p style="font-family: 'Ubuntu', sans-serif; font-size: 25px; color: #61e9c2;">
+                                        &nbsp;Sho<strong style="color: black;">e</strong> Shop</p>
+                                </strong>
+                            </div>
+                        </a>
+                        <button class="navbar-toggler navbar-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -45,30 +53,9 @@
                                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Dropdown
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled">Disabled</a>
+                                    <a class="nav-link active" aria-current="page" href="#popular">Arrival</a>
                                 </li>
                             </ul>
-                            <form class="d-flex">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Search</button>
-                            </form>
                         </div>
                     </div>
                 </nav>
@@ -83,41 +70,52 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-4 col-md-12 col-sm-12">
-                                <p class="shop-by-brand">SHOP BY BRANDS</p>
+                                <strong>
+                                    <p class="shop-by-brand">SHOP BY BRANDS</p>
+                                </strong>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="container-fluid">
-                    <div class="row social-icons-area">
-                        <div class="col-6">
-                            <p class="rotate-text">Nike, originally known as Blue Ribbon Sports<br>was founded by
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col"
+                            style="display: flex; justify-content: space-between;margin-top: 5%; font-size: 14px; color: #8f8f8f;">
+                            <p style="transform: rotate(-90deg); margin-left: 30px;">Nike, originally known as Blue
+                                Ribbon
+                                Sports<br>was
+                                founded by
                                 University of
                                 Oregon track<br>athlete
-                                Phil Knight.</p>
-                        </div>
-                        <div class="col-6 social-icons">
-                            <ul>
+                                Phil Knight.
+                            </p>
+                            <!-- </div> -->
+                            <!-- <div class="col"> -->
+                            <ul class="social-media-icons">
                                 <li><img src="images/fatwitter.png" alt="Twitter" class="social-button"></li>
                                 <li><img src="images/fafacebook.png" alt="Facebook" class="social-button"></li>
                                 <li><img src="images/fagoogleplus.png" alt="Googleplus" class="social-button"></li>
                                 <li><img src="images/fapinterest.png" alt="Pinterest" class="social-button"></li>
                             </ul>
+                            <!-- </div> -->
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
-
+        <div class="d-flex p-2 bd-highlight"></div>
+        <div class="d-flex p-2 bd-highlight"></div>
+        <div class="d-flex p-2 bd-highlight"></div>
         <div class="container">
             <div class="second-page">
                 <div class="row">
                     <div class="col">
-                        <img class="shoeimage1" src="images/Img.png" alt="img">
+                        <img class="shoeimage1 img-border" src="images/Img.png" alt="img">
                     </div>
                     <div class="col">
                         <h2>Nike Air Force One MID id</h2>
-                        <p>Bring to the table win-win survival strategies to ensure proactive domination.<br>At the end
+                        <p>Bring to the table win-win survival strategies to ensure proactive domination.<br>At the
+                            end
                             of
                             the day, going forward, </p>
                         <div class="row">
@@ -125,14 +123,20 @@
                         </div>
                     </div>
                 </div>
+                <div class="d-flex p-2 bd-highlight"></div>
+                <div class="d-flex p-2 bd-highlight"></div>
                 <div class="container-fluid">
-                    <div class="row">
+                    <div id="popular" class="row">
                         <h2>Popular Arrivals</h2>
                     </div>
+                    <div class="d-flex p-2 bd-highlight"></div>
+                    <div class="d-flex p-2 bd-highlight"></div>
+                    <div class="d-flex p-2 bd-highlight"></div>
+                    <div class="d-flex p-2 bd-highlight"></div>
                     <div class="row row-cols-1 row-cols-md-4 g-4">
                         <div class="col">
                             <div class="card h-100">
-                                <img src="images/Layer51.png" class="card-img-top" alt="...">
+                                <img src="images/Layer51.png" class="card-img-top img-border" alt="...">
                                 <div class="card-body">
                                     <div style="display:flex; justify-content:space-between;">
                                         <h5 class="card-title" style="font-size: 15px;">Nike shoes</h5>
@@ -145,7 +149,7 @@
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src="images/Layer51.png" class="card-img-top" alt="...">
+                                <img src="images/Layer51.png" class="card-img-top img-border" alt="...">
                                 <div class="card-body">
                                     <div style="display:flex; justify-content:space-between;">
                                         <h5 class="card-title" style="font-size: 15px;">Nike shoes</h5>
@@ -158,7 +162,7 @@
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src="images/Layer51.png" class="card-img-top" alt="...">
+                                <img src="images/Layer51.png" class="card-img-top img-border" alt="...">
                                 <div class="card-body">
                                     <div style="display:flex; justify-content:space-between;">
                                         <h5 class="card-title" style="font-size: 15px;">Nike shoes</h5>
@@ -171,7 +175,7 @@
                         </div>
                         <div class="col">
                             <div class="card h-100">
-                                <img src="images/Layer51.png" class="card-img-top" alt="...">
+                                <img src="images/Layer51.png" class="card-img-top img-border" alt="...">
                                 <div class="card-body">
                                     <div style="display:flex; justify-content:space-between;">
                                         <h5 class="card-title" style="font-size: 15px;">Nike shoes</h5>
@@ -186,24 +190,33 @@
                 </div>
             </div>
         </div>
+        <div class="d-flex p-2 bd-highlight"></div>
+        <div class="d-flex p-2 bd-highlight"></div>
+        <div class="d-flex p-2 bd-highlight"></div>
         <div class="container">
             <div class="third-page">
                 <div class="row">
                     <div class="col">
                         <h2>Pre- Fall Collections</h2>
-                        <p>Bring to the table win-win survival strategies to ensure proactive domination.<br> At the end
+                        <p>Bring to the table win-win survival strategies to ensure proactive domination.<br> At the
+                            end
                             of
-                            the day, going forward, a new normal that has evolved<br> from generation X is on the runway
-                            heading towards a streamlined cloud<br>solution. User generated content in real-time will
+                            the day, going forward, a new normal that has evolved<br> from generation X is on the
+                            runway
+                            heading towards a streamlined cloud<br>solution. User generated content in real-time
+                            will
                         </p>
                         <div class="row">
                             <p class="view-more">View More</p>
                         </div>
                     </div>
-                    <div class="col">
-                        <img class="shoeimage1" src="images/Layer45_1.png" alt="img">
+                    <div class="col medium-remove">
+                        <img class="shoeimage1 img-border" src="images/Layer45_1.png" alt="img">
                     </div>
                 </div>
+                <div class="d-flex p-2 bd-highlight"></div>
+                <div class="d-flex p-2 bd-highlight"></div>
+                <div class="d-flex p-2 bd-highlight"></div>
                 <div class="though">
                     <div class="row">
                         <h2>We Thought of you</h2>
@@ -212,19 +225,26 @@
                         <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.
                             Override the digital divide<br>with additional clickthroughs from DevOps. Nanotechnology
                             immersion
-                            along the information highway will close<br>the loop on focusing solely on the bottom line.
+                            along the information highway will close<br>the loop on focusing solely on the bottom
+                            line.
                         </p>
                     </div>
                     <div class="row">
                         <p>Nandy Sweety</p>
                     </div>
                     <div class="row">
-                        <p>Ui Designer</p>
+                        <p style="color: #8f8f8f;">Ui Designer</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="d-flex p-2 bd-highlight"></div>
+        <div class="d-flex p-2 bd-highlight"></div>
+        <div class="d-flex p-2 bd-highlight"></div>
+        <div class="container Last-page">
+            <div class="d-flex p-2 bd-highlight"></div>
+            <div class="d-flex p-2 bd-highlight"></div>
+            <div class="d-flex p-2 bd-highlight"></div>
             <div class="row">
                 <h2 style="text-align: center;">Latest Blog</h2>
             </div>
@@ -233,16 +253,18 @@
             <div class="d-flex p-2 bd-highlight"></div>
             <div class="row">
                 <div class="row">
-                    <div class="col">
-                        <img class="shoeimage1" src="images/Layer50_0.png" alt="img">
+                    <div class="col medium-remove">
+                        <img class="shoeimage1 img-border" src="images/Layer50_0.png" alt="img">
                     </div>
                     <div class="col">
                         <h2>Colourful Offer ;</h2>
-                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative
-                            approaches to corporate strategy foster collaborative thinking to further the overall value
+                        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.
+                            Iterative
+                            approaches to corporate strategy foster collaborative thinking to further the overall
+                            value
                             proposition. Organically grow the holistic world view of disruptive</p>
                         <div class="row">
-                            <p class="view-more">Read More</p>
+                            <p class="view-more">Read Moe</p>
                         </div>
                     </div>
                     <div class="d-flex p-2 bd-highlight"></div>
@@ -253,7 +275,10 @@
                 <div class="row footer-text">
                     <div class="col-lg-3 col-sm-12">
                         <img style="width: 8%; height: 15%;" src="images/VectorSmartObject_0.png" alt="">
-                        <p style="font-family: 'Ubuntu', sans-serif; font-size: 25px;">&nbsp;Shoe Shop</p>
+                        <strong>
+                            <p style="font-family: 'Ubuntu', sans-serif; font-size: 25px; color: #61e9c2;">
+                                &nbsp;Sho<strong style="color: black;">e</strong> Shop</p>
+                        </strong>
                     </div>
                     <div class="col-lg-3 col-sm-12">
                         <p>Home</p>
